@@ -27,8 +27,6 @@ enum charybdis_keymap_layers {
     LAYER_POINTER,
 };
 
-#define LAYER_POINTER
-
 #ifdef CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 static uint16_t auto_pointer_layer_timer = 0;
 
